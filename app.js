@@ -25,7 +25,7 @@
   const progress=isBase?data.progress[cat]:0;
   cards+=`<article class="category-card ${accessible?'':'locked'}"><div class="category-image" style="background:${c.bg}" aria-hidden="true">${c.emoji}</div><div class="category-meta"><h3>${c.name}</h3><p>${isBase?`${levelCount(cat)} ricette · ${complete?'Completata':`${progress}/${levelCount(cat)} superate`}`:accessible?'Sbloccata · in preparazione':`🔒 ${cat==='europe'?'Completa una categoria':'Completa due categorie'}`}</p>${isBase?`<div class="meter" role="progressbar" aria-valuenow="${progress}" aria-valuemin="0" aria-valuemax="${levelCount(cat)}" aria-label="Progresso ${c.name}"><div style="width:${Math.round(progress/levelCount(cat)*100)}%"></div></div><div style="margin-top:9px">${button(complete?'Rigioca':progress?'Continua':'Gioca',`choose-${cat}`)}</div>`:`<span class="tiny">${accessible?'Nuove ricette in arrivo':'Categoria bloccata'}</span>`}</div></article>`;
  }
- return `<section class="screen"><div class="nav"><button class="back" data-action="home" aria-label="Torna alla home">‹</button><div><h2>Scegli una categoria</h2><div class="tiny">Completa le ricette per sbloccare nuove cucine!</div></div></div><div class="card-grid">${cards}</div><p class="note">🧑‍🍳 La cucina italiana ha 25 tappe; quella thailandese mantiene 10 tappe di prova.</p></section>`;
+ return `<section class="screen"><div class="nav"><button class="back" data-action="home" aria-label="Torna alla home">‹</button><div><h2>Scegli una categoria</h2><div class="tiny">Completa le ricette per sbloccare nuove cucine!</div></div></div><div class="card-grid">${cards}</div><p class="note">🧑‍🍳 La cucina italiana ha 25 tappe e un archivio di 60 piatti; quella thailandese mantiene 10 tappe di prova.</p></section>`;
  }
  function chooseDifficulty(cat){state.category=cat;nav('difficulty');}
  function difficulty(){return `<section class="screen"><div class="nav"><button class="back" data-action="categories" aria-label="Torna alle categorie">‹</button><div><h2>${CATS[state.category].name}</h2><div class="tiny">Scegli il tuo ritmo</div></div></div><div class="panel"><h2 class="title center">Quanto tempo vuoi?</h2><p class="subtitle center" style="margin:10px 0 20px">Hai quattro risposte per ogni piatto. Puoi cambiare difficoltà alla prossima partita.</p><div class="difficulty-list">${[[10,'Facile','Con calma'],[7,'Medio','Il ritmo giusto'],[5,'Difficile','Sfida lampo']].map(([n,label,desc])=>`<button class="difficulty-option ${state.duration===n?'chosen':''}" data-duration="${n}"><span class="difficulty-seconds">${n}<small>sec</small></span><span><strong>${label}</strong><small>${desc}</small></span><span aria-hidden="true">${state.duration===n?'✓':'›'}</span></button>`).join('')}</div></div>${button('Inizia la partita →','start-game','btn-primary btn-full screen-bottom')}</section>`;}
@@ -42,10 +42,12 @@
   const recipe=fresh[Math.floor(Math.random()*fresh.length)];
   state.history[state.category].push(recipe.id);
   if(state.history[state.category].length>Math.max(12,pool.length))state.history[state.category].shift();
-  state.question=recipe;
-  const indexes=recipe.options.map((_,i)=>i);
+  const variants=recipe.variants || [{question:recipe.question,options:recipe.options,correct:recipe.correct}];
+  const variant=variants[Math.floor(Math.random()*variants.length)];
+  state.question={...recipe,question:variant.question,options:variant.options,correct:variant.correct};
+  const indexes=variant.options.map((_,i)=>i);
   for(let i=indexes.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[indexes[i],indexes[j]]=[indexes[j],indexes[i]];}
-  state.options=indexes.map(i=>recipe.options[i]);state.correctIndex=indexes.indexOf(recipe.correct);
+  state.options=indexes.map(i=>variant.options[i]);state.correctIndex=indexes.indexOf(variant.correct);
  }
 
  function beginQuestion(){stopTimers();state.selected=null;state.result=null;pickQuestion();state.seconds=state.duration;state.active=true;state.view='game';state.deadline=performance.now()+state.duration*1000;render();state.tick=setInterval(()=>{if(!state.active)return;const rem=Math.max(0,state.deadline-performance.now());state.seconds=Math.ceil(rem/1000);const node=document.querySelector('.countdown');if(node){node.style.setProperty('--timer-pct',`${rem/(state.duration*1000)*100}%`);node.classList.toggle('urgent',rem<=2000);const num=node.querySelector('strong');if(num)num.textContent=String(state.seconds).padStart(2,'0')}if(rem<=0)answer(-1)},40);}
