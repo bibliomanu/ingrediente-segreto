@@ -204,6 +204,7 @@ window.RECIPES = {
     ],
     "correct": 0,
     "level": 2,
+    "image": "assets/it6.webp",
     "variants": [
       {
         "question": "Quale frutta secca si usa tradizionalmente nel pesto genovese?",
@@ -241,6 +242,7 @@ window.RECIPES = {
     ],
     "correct": 0,
     "level": 2,
+    "image": "assets/it7.webp",
     "variants": [
       {
         "question": "Quale erba fresca accompagna pomodoro e mozzarella?",
@@ -278,6 +280,7 @@ window.RECIPES = {
     ],
     "correct": 0,
     "level": 2,
+    "image": "assets/it8.webp",
     "variants": [
       {
         "question": "Quale ortaggio si usa nel condimento tradizionale?",
@@ -352,6 +355,7 @@ window.RECIPES = {
     ],
     "correct": 0,
     "level": 2,
+    "image": "assets/it10.webp",
     "variants": [
       {
         "question": "Quale ingrediente da forno viene ammollato nella preparazione toscana?",
@@ -389,6 +393,7 @@ window.RECIPES = {
     ],
     "correct": 0,
     "level": 3,
+    "image": "assets/it11.webp",
     "variants": [
       {
         "question": "Quale cereale costituisce l’involucro degli arancini?",
@@ -500,6 +505,7 @@ window.RECIPES = {
     ],
     "correct": 0,
     "level": 3,
+    "image": "assets/it14.webp",
     "variants": [
       {
         "question": "Quale legume è tipico della ribollita?",
@@ -537,6 +543,7 @@ window.RECIPES = {
     ],
     "correct": 0,
     "level": 3,
+    "image": "assets/it15.webp",
     "variants": [
       {
         "question": "Quale salume viene adagiato sulle fettine di carne?",
@@ -685,6 +692,7 @@ window.RECIPES = {
     ],
     "correct": 0,
     "level": 4,
+    "image": "assets/it19.webp",
     "variants": [
       {
         "question": "Quale formaggio caratterizza la ricetta romana?",
@@ -722,6 +730,7 @@ window.RECIPES = {
     ],
     "correct": 0,
     "level": 4,
+    "image": "assets/it20.webp",
     "variants": [
       {
         "question": "Quale pesce dà il nome alla salsa di questa preparazione?",
@@ -943,7 +952,8 @@ window.RECIPES = {
       "Patata"
     ],
     "correct": 0,
-    "level": 1
+    "level": 1,
+    "image": "assets/it26.webp"
   },
   {
     "id": "it27",
@@ -973,7 +983,8 @@ window.RECIPES = {
       "Peperone"
     ],
     "correct": 0,
-    "level": 1
+    "level": 1,
+    "image": "assets/it28.webp"
   },
   {
     "id": "it29",
@@ -988,7 +999,8 @@ window.RECIPES = {
       "Strutto"
     ],
     "correct": 0,
-    "level": 1
+    "level": 1,
+    "image": "assets/it29.webp"
   },
   {
     "id": "it30",
@@ -1003,7 +1015,8 @@ window.RECIPES = {
       "Farina di castagne"
     ],
     "correct": 0,
-    "level": 1
+    "level": 1,
+    "image": "assets/it30.webp"
   },
   {
     "id": "it31",
@@ -1018,7 +1031,8 @@ window.RECIPES = {
       "Mascarpone"
     ],
     "correct": 0,
-    "level": 1
+    "level": 1,
+    "image": "assets/it31.webp"
   },
   {
     "id": "it32",
@@ -1048,7 +1062,8 @@ window.RECIPES = {
       "Bresaola"
     ],
     "correct": 0,
-    "level": 2
+    "level": 2,
+    "image": "assets/it33.webp"
   },
   {
     "id": "it34",
@@ -1138,7 +1153,8 @@ window.RECIPES = {
       "Gorgonzola"
     ],
     "correct": 0,
-    "level": 2
+    "level": 2,
+    "image": "assets/it39.webp"
   },
   {
     "id": "it40",
@@ -1213,7 +1229,8 @@ window.RECIPES = {
       "Paprika affumicata"
     ],
     "correct": 0,
-    "level": 3
+    "level": 3,
+    "image": "assets/it44.webp"
   },
   {
     "id": "it45",
@@ -1288,7 +1305,8 @@ window.RECIPES = {
       "Pancetta affumicata"
     ],
     "correct": 0,
-    "level": 4
+    "level": 4,
+    "image": "assets/it49.webp"
   },
   {
     "id": "it50",
