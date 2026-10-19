@@ -1,18 +1,386 @@
-/* Domande prototipo: 10 per categoria. Ogni domanda indica esplicitamente
-   il tipo di ingrediente richiesto per evitare risposte ambigue. */
 window.RECIPES = {
  italian: [
-  {id:'it1', dish:'Pizza Margherita', emoji:'🍕', bg:'#ffe3a9', question:'Quale formaggio viene usato nella classica Margherita?', options:['Cheddar','Mozzarella','Gorgonzola','Brie'], correct:1},
-  {id:'it2', dish:'Risotto alla milanese', emoji:'🍚', bg:'#ffde8e', question:'Quale spezia dà il tipico colore giallo?', options:['Paprika','Cannella','Zafferano','Pepe nero'], correct:2},
-  {id:'it3', dish:'Pesto alla genovese', emoji:'🌿', bg:'#d9edb4', question:'Quale frutta secca prevede la ricetta tradizionale?', options:['Pinoli','Noci pecan','Arachidi','Anacardi'], correct:0},
-  {id:'it4', dish:'Spaghetti alla carbonara', emoji:'🍝', bg:'#ffe6ac', question:'Quale di questi ingredienti è presente nella carbonara tradizionale?', options:['Panna','Pomodoro','Burro','Uovo'], correct:3},
-  {id:'it5', dish:'Tiramisù', emoji:'🍰', bg:'#ecd7b4', question:'Quale formaggio fresco si usa per la crema?', options:['Ricotta salata','Mascarpone','Gorgonzola','Caprino stagionato'], correct:1},
-  {id:'it6', dish:'Pasta alla Norma', emoji:'🍆', bg:'#f2c2b4', question:'Quale ortaggio è protagonista del condimento?', options:['Zucchina','Peperone','Melanzana','Carota'], correct:2},
-  {id:'it7', dish:'Caprese', emoji:'🥗', bg:'#dcedc8', question:'Quale erba aromatica completa di solito pomodoro e mozzarella?', options:['Basilico','Rosmarino','Aneto','Salvia'], correct:0},
-  {id:'it8', dish:'Bagna càuda', emoji:'🫕', bg:'#f1d39b', question:'Quale pesce è ingrediente caratteristico della salsa piemontese?', options:['Salmone','Tonno','Sgombro','Acciuga'], correct:3},
-  {id:'it9', dish:'Pasta con le sarde', emoji:'🐟', bg:'#d5e8d5', question:'Quale aroma, spesso selvatico, caratterizza la ricetta siciliana?', options:['Menta','Finocchietto','Dragoncello','Timo limone'], correct:1},
-  {id:'it10', dish:'Pizzoccheri alla valtellinese', emoji:'🥬', bg:'#d8e5b9', question:'Quale verdura compare comunemente nella ricetta tradizionale?', options:['Cavolo verza','Radicchio','Rucola','Lattuga'], correct:0}
- ],
+  {
+    "id": "it1",
+    "dish": "Pizza Margherita",
+    "emoji": "🍽️",
+    "bg": "#ffe3a9",
+    "question": "Quale formaggio viene usato nella classica Margherita?",
+    "options": [
+      "Mozzarella",
+      "Cheddar",
+      "Gorgonzola",
+      "Brie"
+    ],
+    "correct": 0,
+    "level": 1,
+    "image": "assets/margherita.webp"
+  },
+  {
+    "id": "it2",
+    "dish": "Risotto alla milanese",
+    "emoji": "🍽️",
+    "bg": "#ffe3a9",
+    "question": "Quale spezia dà il tipico colore giallo?",
+    "options": [
+      "Zafferano",
+      "Paprika",
+      "Cannella",
+      "Pepe nero"
+    ],
+    "correct": 0,
+    "level": 1,
+    "image": "assets/risotto.webp"
+  },
+  {
+    "id": "it3",
+    "dish": "Spaghetti alla carbonara",
+    "emoji": "🍽️",
+    "bg": "#ffe3a9",
+    "question": "Quale ingrediente si usa nella carbonara tradizionale?",
+    "options": [
+      "Uovo",
+      "Panna",
+      "Pomodoro",
+      "Burro"
+    ],
+    "correct": 0,
+    "level": 1,
+    "image": "assets/carbonara.webp"
+  },
+  {
+    "id": "it4",
+    "dish": "Tiramisù",
+    "emoji": "🍽️",
+    "bg": "#ffe3a9",
+    "question": "Quale formaggio fresco serve per preparare la crema classica?",
+    "options": [
+      "Mascarpone",
+      "Ricotta salata",
+      "Gorgonzola",
+      "Caprino stagionato"
+    ],
+    "correct": 0,
+    "level": 1,
+    "image": "assets/tiramisu.webp"
+  },
+  {
+    "id": "it5",
+    "dish": "Lasagne alla bolognese",
+    "emoji": "🍽️",
+    "bg": "#ffe3a9",
+    "question": "Quale salsa bianca si alterna al ragù nella ricetta classica?",
+    "options": [
+      "Besciamella",
+      "Salsa tartara",
+      "Maionese",
+      "Salsa olandese"
+    ],
+    "correct": 0,
+    "level": 1,
+    "image": "assets/lasagne.webp"
+  },
+  {
+    "id": "it6",
+    "dish": "Pesto alla genovese",
+    "emoji": "🍽️",
+    "bg": "#ffde8e",
+    "question": "Quale frutta secca si usa tradizionalmente nel pesto genovese?",
+    "options": [
+      "Pinoli",
+      "Arachidi",
+      "Anacardi",
+      "Noci pecan"
+    ],
+    "correct": 0,
+    "level": 2
+  },
+  {
+    "id": "it7",
+    "dish": "Insalata caprese",
+    "emoji": "🍽️",
+    "bg": "#ffde8e",
+    "question": "Quale erba fresca accompagna pomodoro e mozzarella?",
+    "options": [
+      "Basilico",
+      "Rosmarino",
+      "Salvia",
+      "Aneto"
+    ],
+    "correct": 0,
+    "level": 2
+  },
+  {
+    "id": "it8",
+    "dish": "Pasta alla Norma",
+    "emoji": "🍽️",
+    "bg": "#ffde8e",
+    "question": "Quale ortaggio si usa nel condimento tradizionale?",
+    "options": [
+      "Melanzana",
+      "Zucca",
+      "Carota",
+      "Finocchio"
+    ],
+    "correct": 0,
+    "level": 2
+  },
+  {
+    "id": "it9",
+    "dish": "Gnocchi alla romana",
+    "emoji": "🍽️",
+    "bg": "#ffde8e",
+    "question": "Quale cereale macinato costituisce la base di questi gnocchi?",
+    "options": [
+      "Semolino di grano",
+      "Farina di mais",
+      "Farina di ceci",
+      "Grano saraceno"
+    ],
+    "correct": 0,
+    "level": 2
+  },
+  {
+    "id": "it10",
+    "dish": "Panzanella",
+    "emoji": "🍽️",
+    "bg": "#ffde8e",
+    "question": "Quale ingrediente da forno viene ammollato nella preparazione toscana?",
+    "options": [
+      "Pane raffermo",
+      "Grissini",
+      "Fette biscottate",
+      "Cracker"
+    ],
+    "correct": 0,
+    "level": 2
+  },
+  {
+    "id": "it11",
+    "dish": "Arancini siciliani",
+    "emoji": "🍽️",
+    "bg": "#fff0c8",
+    "question": "Quale cereale costituisce l’involucro degli arancini?",
+    "options": [
+      "Riso",
+      "Farro",
+      "Orzo",
+      "Miglio"
+    ],
+    "correct": 0,
+    "level": 3
+  },
+  {
+    "id": "it12",
+    "dish": "Pizzoccheri della Valtellina",
+    "emoji": "🍽️",
+    "bg": "#fff0c8",
+    "question": "Quale farina caratterizza la pasta dei pizzoccheri?",
+    "options": [
+      "Grano saraceno",
+      "Riso",
+      "Ceci",
+      "Mais"
+    ],
+    "correct": 0,
+    "level": 3
+  },
+  {
+    "id": "it13",
+    "dish": "Orecchiette alle cime di rapa",
+    "emoji": "🍽️",
+    "bg": "#fff0c8",
+    "question": "Quale verdura è protagonista del condimento pugliese?",
+    "options": [
+      "Cime di rapa",
+      "Spinaci",
+      "Bietole",
+      "Broccoli romani"
+    ],
+    "correct": 0,
+    "level": 3
+  },
+  {
+    "id": "it14",
+    "dish": "Ribollita toscana",
+    "emoji": "🍽️",
+    "bg": "#fff0c8",
+    "question": "Quale legume è tipico della ribollita?",
+    "options": [
+      "Fagioli cannellini",
+      "Lenticchie rosse",
+      "Ceci neri",
+      "Piselli"
+    ],
+    "correct": 0,
+    "level": 3
+  },
+  {
+    "id": "it15",
+    "dish": "Saltimbocca alla romana",
+    "emoji": "🍽️",
+    "bg": "#fff0c8",
+    "question": "Quale salume viene adagiato sulle fettine di carne?",
+    "options": [
+      "Prosciutto crudo",
+      "Mortadella",
+      "Salame piccante",
+      "Speck"
+    ],
+    "correct": 0,
+    "level": 3
+  },
+  {
+    "id": "it16",
+    "dish": "Bagna càuda",
+    "emoji": "🍽️",
+    "bg": "#ecd7b4",
+    "question": "Quale pesce conservato è un ingrediente tipico della salsa?",
+    "options": [
+      "Acciughe",
+      "Tonno",
+      "Sardine fresche",
+      "Salmone"
+    ],
+    "correct": 0,
+    "level": 4
+  },
+  {
+    "id": "it17",
+    "dish": "Pasta con le sarde",
+    "emoji": "🍽️",
+    "bg": "#ecd7b4",
+    "question": "Quale erba aromatica caratterizza spesso questo piatto siciliano?",
+    "options": [
+      "Finocchietto selvatico",
+      "Dragoncello",
+      "Salvia",
+      "Erba cipollina"
+    ],
+    "correct": 0,
+    "level": 4
+  },
+  {
+    "id": "it18",
+    "dish": "Farinata ligure",
+    "emoji": "🍽️",
+    "bg": "#ecd7b4",
+    "question": "Quale farina si usa per la farinata classica?",
+    "options": [
+      "Farina di ceci",
+      "Farina di riso",
+      "Farina di grano tenero",
+      "Farina di castagne"
+    ],
+    "correct": 0,
+    "level": 4
+  },
+  {
+    "id": "it19",
+    "dish": "Cacio e pepe",
+    "emoji": "🍽️",
+    "bg": "#ecd7b4",
+    "question": "Quale formaggio caratterizza la ricetta romana?",
+    "options": [
+      "Pecorino romano",
+      "Gorgonzola",
+      "Taleggio",
+      "Fontina"
+    ],
+    "correct": 0,
+    "level": 4
+  },
+  {
+    "id": "it20",
+    "dish": "Vitello tonnato",
+    "emoji": "🍽️",
+    "bg": "#ecd7b4",
+    "question": "Quale pesce dà il nome alla salsa di questa preparazione?",
+    "options": [
+      "Tonno",
+      "Acciuga",
+      "Sgombro",
+      "Merluzzo"
+    ],
+    "correct": 0,
+    "level": 4
+  },
+  {
+    "id": "it21",
+    "dish": "Canederli allo speck",
+    "emoji": "🍽️",
+    "bg": "#e7edca",
+    "question": "Quale ingrediente di recupero forma spesso la base dell’impasto?",
+    "options": [
+      "Pane raffermo",
+      "Riso bollito",
+      "Polenta",
+      "Patate crude"
+    ],
+    "correct": 0,
+    "level": 5
+  },
+  {
+    "id": "it22",
+    "dish": "Frico friulano",
+    "emoji": "🍽️",
+    "bg": "#e7edca",
+    "question": "Quale formaggio è tradizionalmente protagonista del frico?",
+    "options": [
+      "Montasio",
+      "Asiago",
+      "Mascarpone",
+      "Ricotta"
+    ],
+    "correct": 0,
+    "level": 5
+  },
+  {
+    "id": "it23",
+    "dish": "Caponata siciliana",
+    "emoji": "🍽️",
+    "bg": "#e7edca",
+    "question": "Quale ortaggio è centrale nella caponata più comune?",
+    "options": [
+      "Melanzana",
+      "Zucchina",
+      "Carciofo",
+      "Patata"
+    ],
+    "correct": 0,
+    "level": 5
+  },
+  {
+    "id": "it24",
+    "dish": "Sarde in saor",
+    "emoji": "🍽️",
+    "bg": "#e7edca",
+    "question": "Quale ingrediente vegetale viene stufato per preparare il saor veneziano?",
+    "options": [
+      "Cipolla",
+      "Porro",
+      "Sedano rapa",
+      "Peperone"
+    ],
+    "correct": 0,
+    "level": 5
+  },
+  {
+    "id": "it25",
+    "dish": "Baccalà mantecato alla veneziana",
+    "emoji": "🍽️",
+    "bg": "#e7edca",
+    "question": "Quale pesce essiccato si usa tradizionalmente per questo piatto?",
+    "options": [
+      "Stoccafisso",
+      "Tonno",
+      "Pesce spada",
+      "Salmone"
+    ],
+    "correct": 0,
+    "level": 5
+  }
+],
  thai: [
   {id:'th1', dish:'Pad Thai', emoji:'🍜', bg:'#ffe4a2', question:'Quale tipo di pasta è comunemente usato?', options:['Spaghetti di grano','Tagliatelle all’uovo','Noodles di riso','Ravioli'], correct:2},
   {id:'th2', dish:'Tom Kha Gai', emoji:'🥥', bg:'#e4edc6', question:'Quale latte rende cremosa questa zuppa?', options:['Latte di cocco','Latte di mandorla','Latte vaccino','Latte di avena'], correct:0},
