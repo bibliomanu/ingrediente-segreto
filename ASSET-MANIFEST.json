@@ -1,0 +1,422 @@
+[
+  {
+    "id": "it1",
+    "dish": "Pizza Margherita",
+    "source": "margherita.webp",
+    "webp": "it1.webp",
+    "size_kb": 86.5
+  },
+  {
+    "id": "it2",
+    "dish": "Risotto alla milanese",
+    "source": "risotto.webp",
+    "webp": "it2.webp",
+    "size_kb": 52.7
+  },
+  {
+    "id": "it3",
+    "dish": "Spaghetti alla carbonara",
+    "source": "carbonara.webp",
+    "webp": "it3.webp",
+    "size_kb": 67.6
+  },
+  {
+    "id": "it4",
+    "dish": "Tiramisù",
+    "source": "tiramisu.webp",
+    "webp": "it4.webp",
+    "size_kb": 67.8
+  },
+  {
+    "id": "it5",
+    "dish": "Lasagne alla bolognese",
+    "source": "lasagne.webp",
+    "webp": "it5.webp",
+    "size_kb": 59.5
+  },
+  {
+    "id": "it6",
+    "dish": "Pesto alla genovese",
+    "source": "pasta_al_pesto_su_piatto_decorato.png",
+    "webp": "it6.webp",
+    "size_kb": 82.1
+  },
+  {
+    "id": "it7",
+    "dish": "Insalata caprese",
+    "source": "insalata_caprese_su_piatto_decorato.png",
+    "webp": "it7.webp",
+    "size_kb": 83.4
+  },
+  {
+    "id": "it8",
+    "dish": "Pasta alla Norma",
+    "source": "pasta_alla_norma_con_melanzane_e_basilico.png",
+    "webp": "it8.webp",
+    "size_kb": 90.3
+  },
+  {
+    "id": "it9",
+    "dish": "Gnocchi alla romana",
+    "source": "gnocchi_alla_romana_gratinati_in_piatto_decorato.png",
+    "webp": "it9.webp",
+    "size_kb": 94.7
+  },
+  {
+    "id": "it10",
+    "dish": "Panzanella",
+    "source": "panzanella_colorata_su_piatto_decorato.png",
+    "webp": "it10.webp",
+    "size_kb": 90.4
+  },
+  {
+    "id": "it11",
+    "dish": "Arancini siciliani",
+    "source": "arancini_dorati_su_piatto_decorato.png",
+    "webp": "it11.webp",
+    "size_kb": 95.2
+  },
+  {
+    "id": "it12",
+    "dish": "Pizzoccheri della Valtellina",
+    "source": "pizzoccheri_valtellinesi_gourmet.png",
+    "webp": "it12.webp",
+    "size_kb": 112.6
+  },
+  {
+    "id": "it13",
+    "dish": "Orecchiette alle cime di rapa",
+    "source": "orecchiette_con_cime_di_rapa_e_pangrattato.png",
+    "webp": "it13.webp",
+    "size_kb": 95.2
+  },
+  {
+    "id": "it14",
+    "dish": "Ribollita toscana",
+    "source": "zuppa_ribollita_in_ciotola_rustica.png",
+    "webp": "it14.webp",
+    "size_kb": 92.6
+  },
+  {
+    "id": "it15",
+    "dish": "Saltimbocca alla romana",
+    "source": "saltimbocca_alla_romana_dorata.png",
+    "webp": "it15.webp",
+    "size_kb": 107.1
+  },
+  {
+    "id": "it16",
+    "dish": "Bagna càuda",
+    "source": "bagna_càuda_colorata_con_verdure_fresche.png",
+    "webp": "it16.webp",
+    "size_kb": 97.9
+  },
+  {
+    "id": "it17",
+    "dish": "Pasta con le sarde",
+    "source": "pasta_con_le_sarde_rustica_e_golosa.png",
+    "webp": "it17.webp",
+    "size_kb": 118.1
+  },
+  {
+    "id": "it18",
+    "dish": "Farinata ligure",
+    "source": "farinata_dorata_al_rosmarino_su_piatto_decorato.png",
+    "webp": "it18.webp",
+    "size_kb": 119.9
+  },
+  {
+    "id": "it19",
+    "dish": "Cacio e pepe",
+    "source": "cacio_e_pepe_su_piatto_italiano.png",
+    "webp": "it19.webp",
+    "size_kb": 101.5
+  },
+  {
+    "id": "it20",
+    "dish": "Vitello tonnato",
+    "source": "vitello_tonnato_a_rosetta_con_capperi.png",
+    "webp": "it20.webp",
+    "size_kb": 79.6
+  },
+  {
+    "id": "it21",
+    "dish": "Canederli allo speck",
+    "source": "canederli_in_brodo_dorato.png",
+    "webp": "it21.webp",
+    "size_kb": 93.1
+  },
+  {
+    "id": "it22",
+    "dish": "Frico friulano",
+    "source": "frico_croccante_con_cuore_filante.png",
+    "webp": "it22.webp",
+    "size_kb": 111.4
+  },
+  {
+    "id": "it23",
+    "dish": "Caponata siciliana",
+    "source": "caponata_siciliana_in_ciotola_decorata.png",
+    "webp": "it23.webp",
+    "size_kb": 102.8
+  },
+  {
+    "id": "it24",
+    "dish": "Sarde in saor",
+    "source": "sarde_in_saor_con_uvetta_e_pinoli.png",
+    "webp": "it24.webp",
+    "size_kb": 118.1
+  },
+  {
+    "id": "it25",
+    "dish": "Baccalà mantecato alla veneziana",
+    "source": "baccalà_mantecato_con_crostini_tostati.png",
+    "webp": "it25.webp",
+    "size_kb": 74.9
+  },
+  {
+    "id": "it26",
+    "dish": "Bruschetta al pomodoro",
+    "source": "bruschette_al_pomodoro_su_piatto_rustico.png",
+    "webp": "it26.webp",
+    "size_kb": 106.1
+  },
+  {
+    "id": "it27",
+    "dish": "Spaghetti aglio, olio e peperoncino",
+    "source": "spaghetti_aglio_e_olio_lucido.png",
+    "webp": "it27.webp",
+    "size_kb": 78.5
+  },
+  {
+    "id": "it28",
+    "dish": "Parmigiana di melanzane",
+    "source": "melanzane_alla_parmigiana_su_piatto_verde.png",
+    "webp": "it28.webp",
+    "size_kb": 87.8
+  },
+  {
+    "id": "it29",
+    "dish": "Focaccia genovese",
+    "source": "focaccia_al_rosmarino_su_piatto_verde.png",
+    "webp": "it29.webp",
+    "size_kb": 114.9
+  },
+  {
+    "id": "it30",
+    "dish": "Polenta",
+    "source": "polenta_cremosa_al_burro_e_parmigiano.png",
+    "webp": "it30.webp",
+    "size_kb": 75.9
+  },
+  {
+    "id": "it31",
+    "dish": "Minestrone di verdure",
+    "source": "minestrone_italiano_in_ciotola_rustica.png",
+    "webp": "it31.webp",
+    "size_kb": 91.0
+  },
+  {
+    "id": "it32",
+    "dish": "Gelato alla stracciatella",
+    "source": "coppa_di_gelato_stracciatella_con_wafer.png",
+    "webp": "it32.webp",
+    "size_kb": 73.1
+  },
+  {
+    "id": "it33",
+    "dish": "Pasta all’amatriciana",
+    "source": "pasta_all_amatriciana_su_piatto_rustico.png",
+    "webp": "it33.webp",
+    "size_kb": 108.8
+  },
+  {
+    "id": "it34",
+    "dish": "Trofie al pesto",
+    "source": "trofie_al_pesto_con_verdure_fresche.png",
+    "webp": "it34.webp",
+    "size_kb": 94.1
+  },
+  {
+    "id": "it35",
+    "dish": "Cotoletta alla milanese",
+    "source": "cotoletta_alla_milanese_croccante.png",
+    "webp": "it35.webp",
+    "size_kb": 109.9
+  },
+  {
+    "id": "it36",
+    "dish": "Risotto ai funghi porcini",
+    "source": "risotto_ai_funghi_porcini_con_prezzemolo.png",
+    "webp": "it36.webp",
+    "size_kb": 82.3
+  },
+  {
+    "id": "it37",
+    "dish": "Piadina romagnola",
+    "source": "piadina_gourmet_su_piatto_decorato.png",
+    "webp": "it37.webp",
+    "size_kb": 86.3
+  },
+  {
+    "id": "it38",
+    "dish": "Frittata di zucchine",
+    "source": "frittata_di_zucchine_su_piatto_decorato.png",
+    "webp": "it38.webp",
+    "size_kb": 114.7
+  },
+  {
+    "id": "it39",
+    "dish": "Cannoli siciliani",
+    "source": "cannoli_siciliani_su_piatto_decorato.png",
+    "webp": "it39.webp",
+    "size_kb": 88.2
+  },
+  {
+    "id": "it40",
+    "dish": "Risotto al radicchio",
+    "source": "risotto_al_radicchio_su_piatto_verde.png",
+    "webp": "it40.webp",
+    "size_kb": 90.9
+  },
+  {
+    "id": "it41",
+    "dish": "Pappa al pomodoro",
+    "source": "zuppa_di_pomodoro_e_pane_al_basilico.png",
+    "webp": "it41.webp",
+    "size_kb": 87.1
+  },
+  {
+    "id": "it42",
+    "dish": "Gricia romana",
+    "source": "pasta_cremosa_con_guanciale_e_pepe_nero.png",
+    "webp": "it42.webp",
+    "size_kb": 100.5
+  },
+  {
+    "id": "it43",
+    "dish": "Pasta alla puttanesca",
+    "source": "pasta_alla_puttanesca_illustrata.png",
+    "webp": "it43.webp",
+    "size_kb": 94.3
+  },
+  {
+    "id": "it44",
+    "dish": "Strudel di mele",
+    "source": "strudel_di_mele_con_zucchero_a_velo.png",
+    "webp": "it44.webp",
+    "size_kb": 118.1
+  },
+  {
+    "id": "it45",
+    "dish": "Focaccia di Recco",
+    "source": "focaccia_di_recco_filante_su_piatto_decorato.png",
+    "webp": "it45.webp",
+    "size_kb": 110.0
+  },
+  {
+    "id": "it46",
+    "dish": "Zuppa di farro",
+    "source": "zuppa_rustica_di_farro_e_verdure.png",
+    "webp": "it46.webp",
+    "size_kb": 96.4
+  },
+  {
+    "id": "it47",
+    "dish": "Culurgiones ogliastrini",
+    "source": "culurgiones_al_pomodoro_su_piatto_decorato.png",
+    "webp": "it47.webp",
+    "size_kb": 97.7
+  },
+  {
+    "id": "it48",
+    "dish": "Fregola con arselle",
+    "source": "fregola_alle_arselle_illustrata.png",
+    "webp": "it48.webp",
+    "size_kb": 74.0
+  },
+  {
+    "id": "it49",
+    "dish": "Tortellini in brodo",
+    "source": "tortellini_in_brodo_tradizionale.png",
+    "webp": "it49.webp",
+    "size_kb": 78.7
+  },
+  {
+    "id": "it50",
+    "dish": "Ciceri e tria",
+    "source": "piatto_rustico_di_pasta_e_ceci.png",
+    "webp": "it50.webp",
+    "size_kb": 72.0
+  },
+  {
+    "id": "it51",
+    "dish": "Crespelle alla fiorentina",
+    "source": "crespelle_spinaci_e_ricotta_gratinate.png",
+    "webp": "it51.webp",
+    "size_kb": 78.0
+  },
+  {
+    "id": "it52",
+    "dish": "Zuppa alla valdostana",
+    "source": "zuppa_valdostana_gratinata_in_ciotola_rustica.png",
+    "webp": "it52.webp",
+    "size_kb": 79.9
+  },
+  {
+    "id": "it53",
+    "dish": "Pasta e patate alla napoletana",
+    "source": "ciotola_di_pasta_e_patate_cremosa.png",
+    "webp": "it53.webp",
+    "size_kb": 83.4
+  },
+  {
+    "id": "it54",
+    "dish": "Seadas sarde",
+    "source": "seadas_al_miele_su_piatto_sardo.png",
+    "webp": "it54.webp",
+    "size_kb": 92.4
+  },
+  {
+    "id": "it55",
+    "dish": "Panissa vercellese",
+    "source": "panissa_vercellese_cremosa_con_fagioli_e_salsiccia.png",
+    "webp": "it55.webp",
+    "size_kb": 104.4
+  },
+  {
+    "id": "it56",
+    "dish": "Cjarsons carnici",
+    "source": "ravioli_dorati_al_burro_erbe_e_parmigiano.png",
+    "webp": "it56.webp",
+    "size_kb": 105.8
+  },
+  {
+    "id": "it57",
+    "dish": "Maccheroni alla chitarra",
+    "source": "pasta_al_pomodoro_con_basilico_e_formaggio.png",
+    "webp": "it57.webp",
+    "size_kb": 100.0
+  },
+  {
+    "id": "it58",
+    "dish": "Pisci stoccu alla ghiotta",
+    "source": "baccalà_in_umido_con_patate_e_olive.png",
+    "webp": "it58.webp",
+    "size_kb": 112.5
+  },
+  {
+    "id": "it59",
+    "dish": "Acquacotta maremmana",
+    "source": "zuppa_rustica_con_uovo_e_pane_tostato.png",
+    "webp": "it59.webp",
+    "size_kb": 107.4
+  },
+  {
+    "id": "it60",
+    "dish": "Scapece gallipolina",
+    "source": "pesci_fritti_dorati_su_ceramica_mediterranea.png",
+    "webp": "it60.webp",
+    "size_kb": 121.5
+  }
+]

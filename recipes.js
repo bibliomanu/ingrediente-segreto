@@ -14,7 +14,7 @@ window.RECIPES = {
       ],
       "correct": 0,
       "level": 1,
-      "image": "assets/margherita.webp",
+      "image": "assets/it1.webp",
       "variants": [
         {
           "question": "Quale formaggio viene usato nella classica Margherita?",
@@ -52,7 +52,7 @@ window.RECIPES = {
       ],
       "correct": 0,
       "level": 1,
-      "image": "assets/risotto.webp",
+      "image": "assets/it2.webp",
       "variants": [
         {
           "question": "Quale spezia dà il tipico colore giallo?",
@@ -90,7 +90,7 @@ window.RECIPES = {
       ],
       "correct": 0,
       "level": 1,
-      "image": "assets/carbonara.webp",
+      "image": "assets/it3.webp",
       "variants": [
         {
           "question": "Quale ingrediente si usa nella carbonara tradizionale?",
@@ -128,7 +128,7 @@ window.RECIPES = {
       ],
       "correct": 0,
       "level": 1,
-      "image": "assets/tiramisu.webp",
+      "image": "assets/it4.webp",
       "variants": [
         {
           "question": "Quale formaggio fresco serve per preparare la crema classica?",
@@ -166,7 +166,7 @@ window.RECIPES = {
       ],
       "correct": 0,
       "level": 1,
-      "image": "assets/lasagne.webp",
+      "image": "assets/it5.webp",
       "variants": [
         {
           "question": "Quale salsa bianca si alterna al ragù nella ricetta classica?",
@@ -226,7 +226,7 @@ window.RECIPES = {
           "correct": 0
         }
       ],
-      "image": "assets/pesto.webp"
+      "image": "assets/it6.webp"
     },
     {
       "id": "it7",
@@ -264,7 +264,7 @@ window.RECIPES = {
           "correct": 0
         }
       ],
-      "image": "assets/caprese.webp"
+      "image": "assets/it7.webp"
     },
     {
       "id": "it8",
@@ -302,7 +302,7 @@ window.RECIPES = {
           "correct": 0
         }
       ],
-      "image": "assets/norma.webp"
+      "image": "assets/it8.webp"
     },
     {
       "id": "it9",
@@ -339,7 +339,8 @@ window.RECIPES = {
           ],
           "correct": 0
         }
-      ]
+      ],
+      "image": "assets/it9.webp"
     },
     {
       "id": "it10",
@@ -376,7 +377,8 @@ window.RECIPES = {
           ],
           "correct": 0
         }
-      ]
+      ],
+      "image": "assets/it10.webp"
     },
     {
       "id": "it11",
@@ -414,7 +416,7 @@ window.RECIPES = {
           "correct": 0
         }
       ],
-      "image": "assets/arancini.webp"
+      "image": "assets/it11.webp"
     },
     {
       "id": "it12",
@@ -451,7 +453,8 @@ window.RECIPES = {
           ],
           "correct": 0
         }
-      ]
+      ],
+      "image": "assets/it12.webp"
     },
     {
       "id": "it13",
@@ -489,7 +492,7 @@ window.RECIPES = {
           "correct": 0
         }
       ],
-      "image": "assets/orecchiette.webp"
+      "image": "assets/it13.webp"
     },
     {
       "id": "it14",
@@ -527,7 +530,7 @@ window.RECIPES = {
           "correct": 0
         }
       ],
-      "image": "assets/ribollita.webp"
+      "image": "assets/it14.webp"
     },
     {
       "id": "it15",
@@ -564,7 +567,8 @@ window.RECIPES = {
           ],
           "correct": 0
         }
-      ]
+      ],
+      "image": "assets/it15.webp"
     },
     {
       "id": "it16",
@@ -601,7 +605,8 @@ window.RECIPES = {
           ],
           "correct": 0
         }
-      ]
+      ],
+      "image": "assets/it16.webp"
     },
     {
       "id": "it17",
@@ -638,7 +643,8 @@ window.RECIPES = {
           ],
           "correct": 0
         }
-      ]
+      ],
+      "image": "assets/it17.webp"
     },
     {
       "id": "it18",
@@ -675,7 +681,8 @@ window.RECIPES = {
           ],
           "correct": 0
         }
-      ]
+      ],
+      "image": "assets/it18.webp"
     },
     {
       "id": "it19",
@@ -712,7 +719,8 @@ window.RECIPES = {
           ],
           "correct": 0
         }
-      ]
+      ],
+      "image": "assets/it19.webp"
     },
     {
       "id": "it20",
@@ -750,7 +758,7 @@ window.RECIPES = {
           "correct": 0
         }
       ],
-      "image": "assets/vitello-tonnato.webp"
+      "image": "assets/it20.webp"
     },
     {
       "id": "it21",
@@ -787,7 +795,8 @@ window.RECIPES = {
           ],
           "correct": 0
         }
-      ]
+      ],
+      "image": "assets/it21.webp"
     },
     {
       "id": "it22",
@@ -824,7 +833,8 @@ window.RECIPES = {
           ],
           "correct": 0
         }
-      ]
+      ],
+      "image": "assets/it22.webp"
     },
     {
       "id": "it23",
@@ -861,7 +871,8 @@ window.RECIPES = {
           ],
           "correct": 0
         }
-      ]
+      ],
+      "image": "assets/it23.webp"
     },
     {
       "id": "it24",
@@ -898,7 +909,8 @@ window.RECIPES = {
           ],
           "correct": 0
         }
-      ]
+      ],
+      "image": "assets/it24.webp"
     },
     {
       "id": "it25",
@@ -935,7 +947,8 @@ window.RECIPES = {
           ],
           "correct": 0
         }
-      ]
+      ],
+      "image": "assets/it25.webp"
     },
     {
       "id": "it26",
@@ -951,7 +964,7 @@ window.RECIPES = {
       ],
       "correct": 0,
       "level": 1,
-      "image": "assets/bruschetta.webp"
+      "image": "assets/it26.webp"
     },
     {
       "id": "it27",
@@ -967,7 +980,7 @@ window.RECIPES = {
       ],
       "correct": 0,
       "level": 1,
-      "image": "assets/aglio-olio.webp"
+      "image": "assets/it27.webp"
     },
     {
       "id": "it28",
@@ -983,7 +996,7 @@ window.RECIPES = {
       ],
       "correct": 0,
       "level": 1,
-      "image": "assets/parmigiana.webp"
+      "image": "assets/it28.webp"
     },
     {
       "id": "it29",
@@ -999,7 +1012,7 @@ window.RECIPES = {
       ],
       "correct": 0,
       "level": 1,
-      "image": "assets/focaccia.webp"
+      "image": "assets/it29.webp"
     },
     {
       "id": "it30",
@@ -1014,7 +1027,8 @@ window.RECIPES = {
         "Farina di castagne"
       ],
       "correct": 0,
-      "level": 1
+      "level": 1,
+      "image": "assets/it30.webp"
     },
     {
       "id": "it31",
@@ -1029,7 +1043,8 @@ window.RECIPES = {
         "Mascarpone"
       ],
       "correct": 0,
-      "level": 1
+      "level": 1,
+      "image": "assets/it31.webp"
     },
     {
       "id": "it32",
@@ -1045,7 +1060,7 @@ window.RECIPES = {
       ],
       "correct": 0,
       "level": 1,
-      "image": "assets/stracciatella.webp"
+      "image": "assets/it32.webp"
     },
     {
       "id": "it33",
@@ -1060,7 +1075,8 @@ window.RECIPES = {
         "Bresaola"
       ],
       "correct": 0,
-      "level": 2
+      "level": 2,
+      "image": "assets/it33.webp"
     },
     {
       "id": "it34",
@@ -1075,7 +1091,8 @@ window.RECIPES = {
         "Timo"
       ],
       "correct": 0,
-      "level": 2
+      "level": 2,
+      "image": "assets/it34.webp"
     },
     {
       "id": "it35",
@@ -1090,7 +1107,8 @@ window.RECIPES = {
         "Agnello"
       ],
       "correct": 0,
-      "level": 2
+      "level": 2,
+      "image": "assets/it35.webp"
     },
     {
       "id": "it36",
@@ -1105,7 +1123,8 @@ window.RECIPES = {
         "Chiodino"
       ],
       "correct": 0,
-      "level": 2
+      "level": 2,
+      "image": "assets/it36.webp"
     },
     {
       "id": "it37",
@@ -1120,7 +1139,8 @@ window.RECIPES = {
         "Panna"
       ],
       "correct": 0,
-      "level": 2
+      "level": 2,
+      "image": "assets/it37.webp"
     },
     {
       "id": "it38",
@@ -1135,7 +1155,8 @@ window.RECIPES = {
         "Latte di cocco"
       ],
       "correct": 0,
-      "level": 2
+      "level": 2,
+      "image": "assets/it38.webp"
     },
     {
       "id": "it39",
@@ -1151,7 +1172,7 @@ window.RECIPES = {
       ],
       "correct": 0,
       "level": 2,
-      "image": "assets/cannoli.webp"
+      "image": "assets/it39.webp"
     },
     {
       "id": "it40",
@@ -1166,7 +1187,8 @@ window.RECIPES = {
         "Finocchio"
       ],
       "correct": 0,
-      "level": 3
+      "level": 3,
+      "image": "assets/it40.webp"
     },
     {
       "id": "it41",
@@ -1182,7 +1204,7 @@ window.RECIPES = {
       ],
       "correct": 0,
       "level": 3,
-      "image": "assets/pappa.webp"
+      "image": "assets/it41.webp"
     },
     {
       "id": "it42",
@@ -1197,7 +1219,8 @@ window.RECIPES = {
         "Asiago"
       ],
       "correct": 0,
-      "level": 3
+      "level": 3,
+      "image": "assets/it42.webp"
     },
     {
       "id": "it43",
@@ -1212,7 +1235,8 @@ window.RECIPES = {
         "Ceci"
       ],
       "correct": 0,
-      "level": 3
+      "level": 3,
+      "image": "assets/it43.webp"
     },
     {
       "id": "it44",
@@ -1227,7 +1251,8 @@ window.RECIPES = {
         "Paprika affumicata"
       ],
       "correct": 0,
-      "level": 3
+      "level": 3,
+      "image": "assets/it44.webp"
     },
     {
       "id": "it45",
@@ -1242,7 +1267,8 @@ window.RECIPES = {
         "Parmigiano stagionato"
       ],
       "correct": 0,
-      "level": 3
+      "level": 3,
+      "image": "assets/it45.webp"
     },
     {
       "id": "it46",
@@ -1257,7 +1283,8 @@ window.RECIPES = {
         "Grano saraceno"
       ],
       "correct": 0,
-      "level": 3
+      "level": 3,
+      "image": "assets/it46.webp"
     },
     {
       "id": "it47",
@@ -1272,7 +1299,8 @@ window.RECIPES = {
         "Barbabietola"
       ],
       "correct": 0,
-      "level": 4
+      "level": 4,
+      "image": "assets/it47.webp"
     },
     {
       "id": "it48",
@@ -1287,7 +1315,8 @@ window.RECIPES = {
         "Calamaro"
       ],
       "correct": 0,
-      "level": 4
+      "level": 4,
+      "image": "assets/it48.webp"
     },
     {
       "id": "it49",
@@ -1302,7 +1331,8 @@ window.RECIPES = {
         "Pancetta affumicata"
       ],
       "correct": 0,
-      "level": 4
+      "level": 4,
+      "image": "assets/it49.webp"
     },
     {
       "id": "it50",
@@ -1317,7 +1347,8 @@ window.RECIPES = {
         "Fave"
       ],
       "correct": 0,
-      "level": 4
+      "level": 4,
+      "image": "assets/it50.webp"
     },
     {
       "id": "it51",
@@ -1332,7 +1363,8 @@ window.RECIPES = {
         "Rucola"
       ],
       "correct": 0,
-      "level": 4
+      "level": 4,
+      "image": "assets/it51.webp"
     },
     {
       "id": "it52",
@@ -1347,7 +1379,8 @@ window.RECIPES = {
         "Scamorza"
       ],
       "correct": 0,
-      "level": 4
+      "level": 4,
+      "image": "assets/it52.webp"
     },
     {
       "id": "it53",
@@ -1362,7 +1395,8 @@ window.RECIPES = {
         "Roquefort"
       ],
       "correct": 0,
-      "level": 4
+      "level": 4,
+      "image": "assets/it53.webp"
     },
     {
       "id": "it54",
@@ -1377,7 +1411,8 @@ window.RECIPES = {
         "Mozzarella di bufala"
       ],
       "correct": 0,
-      "level": 5
+      "level": 5,
+      "image": "assets/it54.webp"
     },
     {
       "id": "it55",
@@ -1392,7 +1427,8 @@ window.RECIPES = {
         "Fave"
       ],
       "correct": 0,
-      "level": 5
+      "level": 5,
+      "image": "assets/it55.webp"
     },
     {
       "id": "it56",
@@ -1407,7 +1443,8 @@ window.RECIPES = {
         "Meringa"
       ],
       "correct": 0,
-      "level": 5
+      "level": 5,
+      "image": "assets/it56.webp"
     },
     {
       "id": "it57",
@@ -1422,7 +1459,8 @@ window.RECIPES = {
         "Stampo a conchiglia"
       ],
       "correct": 0,
-      "level": 5
+      "level": 5,
+      "image": "assets/it57.webp"
     },
     {
       "id": "it58",
@@ -1437,7 +1475,8 @@ window.RECIPES = {
         "Sardine fresche"
       ],
       "correct": 0,
-      "level": 5
+      "level": 5,
+      "image": "assets/it58.webp"
     },
     {
       "id": "it59",
@@ -1452,7 +1491,8 @@ window.RECIPES = {
         "Gelatina"
       ],
       "correct": 0,
-      "level": 5
+      "level": 5,
+      "image": "assets/it59.webp"
     },
     {
       "id": "it60",
@@ -1467,7 +1507,8 @@ window.RECIPES = {
         "Paprika"
       ],
       "correct": 0,
-      "level": 5
+      "level": 5,
+      "image": "assets/it60.webp"
     }
   ],
   "thai": [
